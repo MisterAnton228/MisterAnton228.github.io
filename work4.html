@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Анкета</title>
+    <style>
+      INFO {
+        color: blue;
+      }
+      TEL,
+      MAIL {
+        color: green;
+      }
+      hr {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><u>Анкета</u></h1>
+    <info>Фамилия:</info><br />
+    <input type="text" /><br />
+    <info>Имя:</info><br />
+    <input type="text" /><br />
+    <info>Отчество:</info><br />
+    <input type="text" /><br />
+    <hr />
+    <info>Пароль:</info><br />
+    <input type="password" /><br />
+    <hr />
+    <info>Введите дату рождения:</info><br />
+    <input type="text" size="2" />
+    <select>
+      <option>Января</option>
+      <option>Февраля</option>
+      <option>Марта</option>
+      <option>Апреля</option>
+      <option>Мая</option>
+      <option>Июня</option>
+      <option>Июля</option>
+      <option>Августа</option>
+      <option>Сентября</option>
+      <option>Октября</option>
+      <option>Ноября</option>
+      <option>Декабря</option>
+    </select>
+    <input type="text" size="3" />
+    <hr />
+    <info>Укажите самый удобный способ связи с вами:</info><br />
+    <input type="radio" name="Field" />
+    <input type="text" />
+    <tel>Домашний телефон</tel><br />
+    <input type="radio" name="Field" />
+    <input type="text" />
+    <tel>Рабочий телефон</tel><br />
+    <input type="radio" name="Field" />
+    <input type="text" />
+    <mail>Электронная почта</mail><br />
+    <hr />
+    <info>Укажите ваше образование</info><br />
+    <select>
+      <option>Дошкольное образование</option>
+      <option>Начальное общее образование</option>
+      <option>Основное общее образование</option>
+      <option>Среднее общее образование</option>
+      <option>Среднее профессиональное образование</option>
+      <option>Высшее образование</option>
+    </select>
+    <hr />
+    <info>Немного о себе:</info><br />
+    <textarea rows="3" cols="25"></textarea>
+    <hr />
+    <input type="reset" value="Сброс" />
+    <input type="submit" value="Послать" />
+  </body>
+</html>
